@@ -1,0 +1,16 @@
+ <div class="container">
+  <div class="header">
+    <h1 >Roulette</h1>
+  </div>
+ <div class="form-group" style="padding: 50px">
+   <form #form="ngForm" (submit)="submitForm(form)">
+     <p style="color: crimson">{{errormsg}}</p>
+     <label>Enter Your Unique Id</label>
+       <input type="text" class="form-control"  name="uuid" [(ngModel)]="uuid"><br>
+      <button class="btn btn-success" type="submit">Start Playing</button>
+   </form>
+
+   <!--<input type="text" class="form-control"  name="uuid" [(ngModel)]="uuid">-->
+   <!--<button (click)="submitdata()">Submit</button>-->
+ </div>
+ </div>

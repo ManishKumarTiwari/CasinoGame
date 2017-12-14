@@ -1,0 +1,55 @@
+/*.header{*/
+  /*background-color: green;*/
+  /*padding-top: 5px;*/
+  /*padding-bottom: 5px;*/
+/*}*/
+.roulette{
+  margin-top: 1px;
+  font-size:40px;
+  width:250px;
+  max-width:250px;
+  display: inline-block;
+
+}
+.image1{
+  border-radius: 50%;
+  height:250px;
+  width:250px;
+}
+.image{
+  position: relative;
+  left: 5px;
+  background: transparent;
+}
+.rotate :hover {
+  transition-duration: 3000ms;
+  transform: rotate(3600deg);
+}
+.heading{
+  background-color: green;
+  height: 80px;
+  padding-top: 10px;
+}
+.head{
+  vertical-align: middle;
+  padding-left: 20px;
+  line-height: 60px;
+}
+.welcome-box{
+  display: inline;
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  margin-right:  70px;
+  margin-top: 1px;
+  overflow: hidden;
+
+}
+.exitbtn{
+  background-color:white ;
+  border-radius:4px;
+  padding:6px 16px;
+  margin-top: 15px;
+  margin-right: 40px;
+  float:right;
+}
